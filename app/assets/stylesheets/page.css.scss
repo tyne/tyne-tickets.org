@@ -1,3 +1,52 @@
 // Place all the styles related to the Page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding-top: 40px;
+}
+
+.header {
+  margin-top: 70px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 3.5em;
+    letter-spacing: -0.05em;
+    color: #555;
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: -0.05em;
+    color: #555;
+    text-align: center;
+  }
+}
+
+.description {
+  margin-top: 50px;
+}
+
+.demo {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+
+  span {
+    font-size: 2.5em;
+    display: block;
+  }
+
+  a {
+    margin-top: 20px;
+  }
+}
+
+.reasons {
+  h5 {
+    font-size: 1em;
+    color: #08c;
+  }
+}
