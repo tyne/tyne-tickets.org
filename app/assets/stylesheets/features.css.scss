@@ -2,11 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.feature {
-  img {
-    padding: 10px;
-  }
-  &.odd {
-    background-color: #eeeeee;
+.features {
+  h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #D43215;
   }
 }
