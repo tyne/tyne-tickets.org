@@ -45,5 +45,4 @@ namespace :rvm do
   end
 end
 
-after 'bundle:install', 'deploy:after_hook'
 after 'deploy:finalize_update', 'deploy:assets'
