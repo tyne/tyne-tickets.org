@@ -22,12 +22,9 @@ end
 gem 'jquery-rails'
 gem 'thin'
 gem 'rvm-capistrano'
+gem 'sqlite3'
 
 group :production do
   gem 'pg'
   gem 'newrelic_rpm'
-end
-
-group :test, :development do
-  gem 'sqlite3'
 end
