@@ -21,6 +21,7 @@ end
 
 gem 'jquery-rails'
 gem 'thin'
+gem 'rvm-capistrano'
 
 group :production do
   gem 'pg'
